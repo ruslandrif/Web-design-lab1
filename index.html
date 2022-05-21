@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
-            <a class="navbar-brand" href="index.html" role="banner"><img src="logo.png" width="100px"> Калькулятор для програмістів</a>
+            
     
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Змінити навігацю">
+            <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Змінити навігацю">
                 <span class="navbar-toggler-icon"></span>
             </button>
     
@@ -24,7 +27,7 @@
                 <ul class="navbar-nav mr-auto">
     
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Про сайт</a>
+                        <a class="nav-link" href="index.html">На головну</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="sign_up.html">Реєстрація</a>
@@ -32,14 +35,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="sing_in.html">Вхід</a>
                     </li>
-    
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Профіль користувача</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Про сайт</a>
+                    </li>
                 </ul>
-    
-                <form class="form-inline my-2 my-lg-0" action="profile.html">
-    
-    
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Мій профіль</button>
-                </form>
             </div>
         </nav>
     </header>
@@ -47,17 +49,17 @@
         <div style="background:transparent !important" class="jumbotron">
             <div class="container-fluid">
     
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="row main_btn">
+                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 col-6 center-block">
                         <form action="simple_calc.html">
-                            <input type="submit" value="Користуватись звичайним калькулятором" />
+                            <button type="button"><a href="simple_calc.html"> Користуватись звичайним калькулятором </a></button>
                         </form>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="row main_btn">
+                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 col-6 center-block">
                         <form action="calc_for_devs.html">
-                            <input type="submit" value="Користуватись калькулятором для програмістів" />
+                            <button type="button"><a href="calc_for_devs.html"> Користуватись калькулятором для програмістів </a></button>
                         </form>
                     </div>
                 </div>
