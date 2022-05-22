@@ -55,7 +55,9 @@ body {
   word-break: break-all;
 }
 
-.main_btn { margin-top:20px; }
+.main_btn { 
+  margin-top: 20px;
+}
 
 .about {
   max-width: 10%;
@@ -116,6 +118,10 @@ button {
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+
+.center-block {
+
 }
    
    .footer {
